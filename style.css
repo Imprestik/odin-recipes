@@ -9,6 +9,14 @@ body {
    box-sizing: border-box;
 }
 
+img {
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    
+}
+
 
 h1 {
     background-color: rgb(0, 0, 0);
@@ -24,8 +32,8 @@ h1 {
 }
 
 ul {
-    height: 200px;
-    width: 170px;
+    height: auto;
+    width: 200px;
     border: 3px solid black;
     margin: 2px;
 }
@@ -33,6 +41,39 @@ ul {
 .recipe {
     margin: 20px -10px;
     text-align: left;
-    
+}
 
+.home-button {
+    margin: 10px auto 10px;
+    padding: 7px 0 10px 0;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 110px;
+    border: solid 2px black;
+
+}
+
+.headers {
+    text-align: center;
+    margin: 20px 0px;
+    background-color: black;
+    color: white;
+}
+
+.sub-headers {
+    margin-bottom: 15px;
+}
+
+.item-list-box {
+    height: auto;
+    width: 200px;
+    margin: 15px 2px;
+}
+
+.item-list {
+    text-align: left;
+    margin: 10px 0 10px -20px;
 }
